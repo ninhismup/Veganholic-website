@@ -1,0 +1,51 @@
+/* Importing Google fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+/* Importing component files */
+
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/register.css");
+@import url("components/avatar.css");
+
+
+/*
+Website colors:
+Main color (light green): #7FC5B8
+Secondary color (red/orange): #E37D5F
+
+Website fonts:
+Body font: 'Open Sans', sans-serif
+Headers font: 'Roboto', sans-serif
+*/
+
+/* General style rules for fonts and colors */
+
+body {
+	font-size: 20px;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, a {
+	font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+	margin-left: 50px;
+	margin-top: 60px;
+	font-size: 28px;
+	font-weight: normal;
+}
+
+h3 {
+	color: white;
+}

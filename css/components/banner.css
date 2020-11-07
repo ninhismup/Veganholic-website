@@ -1,0 +1,48 @@
+/* White banner */
+
+.banner-white {
+	background-color: white;
+	padding: 7px;
+}
+
+/* Green banner */
+
+.banner-green {
+	background-color: #7FC5B8;
+	padding: 8px 0px;
+}
+
+/* Main banner */
+
+.main-banner {
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url("../../images/homepage.jpg");
+	padding: 220px 0px;
+	background-position: center;
+	background-size: cover;
+}
+
+.main-banner h1 {
+	font-size: 35px;
+	color: white;
+	margin-bottom: 60px;
+	margin-top: 0px;
+	font-weight: bold;
+}
+
+.main-banner h3 {
+	font-size: 22px;
+	font-weight: lighter;
+	color: rgb(350,350,350);
+	opacity: 0.8;
+	margin-bottom: 20px;
+}
+
+/* Product modal banner */
+
+.banner-img {
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url("../../images/chickpeas-nachos.jpg");
+	padding: 400px 0px;
+	background-position: center;
+	background-size: cover;	
+	margin-top: 15px;
+}

@@ -1,0 +1,135 @@
+/* All dishes cards */
+
+.cards {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Single dish card */
+
+.card {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 4px;
+	margin: 8px 10px;
+}
+
+.card img {
+	width: 420px;
+	height: 400px;
+	border-radius: 4px;
+}
+
+.card p {
+	color: #E37D5F;
+	font-weight: bold;
+	margin-bottom: 5px;
+	margin-top: 1px;
+}
+
+.card h4 {
+	margin-top: 6px;
+	margin-bottom: 0px;
+}
+
+/* Black footer */
+
+.card-black {
+	padding: 30px;
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+}
+
+.card-black ul {
+	margin-right: 80px;
+}
+
+/* Information card about the product on the product page */
+
+.card-info {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	justify-content: space-around;
+}
+
+.card-info h1 {
+	text-align: center;
+	font-size: 45px;
+}
+
+.card-info h5 {
+	color: #E37D5F;
+	font-size: 30px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+
+.card-info p {
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+/* Card to add the product to the cart */
+
+.card-addproduct {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 4px;
+	margin: 10px 400px;
+}
+
+.card-addproduct h2 {
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+.card-addproduct label {
+	margin-bottom: 15px;
+	padding-right: 50px;
+}
+
+.card-addproduct input {
+	width: 150px;
+	height: 40px;
+	box-sizing: border-box;
+	border: 1px solid #999;
+	background-color: rgb(200,200,200);
+	font-size: 20px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

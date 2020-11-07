@@ -1,0 +1,177 @@
+/* Wesbite buttons */
+
+a {
+	text-decoration: none;
+}
+
+/* Logo's button */
+
+.btn-logo {
+	height: 40px;
+	margin-left: 50px;
+}
+
+/* Home page */
+
+/* White buttons of the green banner */
+
+.btn-white {
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+	margin-right: 33px;
+	display: inline;
+}
+
+.btn-white:hover {
+	background-color: #7FC5B8;
+	color: black;
+}
+
+/* Reb button sign in/register on the main page */
+
+.btn-register {
+	position: absolute; right: 0;
+	margin-top: 10px;
+	margin-right: 20px;
+	color: #E37D5F;
+	font-size: 19px;
+	font-weight: bold;
+}
+
+.btn-register:hover {
+	color: black;
+}
+
+/* Grey buttons of the main banner */
+
+.btn-grey {
+	background-color: rgb(240, 240, 240);
+	color: black;
+	padding: 10px 30px;
+	margin-right: 10px;
+	border-radius: 40px;
+	font-weight: lighter;
+	font-size: 15px;
+	display: inline;
+}
+
+.btn-grey:hover {
+	background-color: black;
+	color: white;
+}
+
+/* Social media buttons */
+
+.btn-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.btn-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.btn-inline i {
+	font-size: 50px;
+	color: white;
+}
+
+.btn-inline i:hover {
+	background-color: black;
+	color: #7FC5B8;
+}
+
+/* Sign in / register page */
+
+/* Logo's button on the sign in / register page */
+
+.logo-register {
+	height: 55px;
+	margin: 0px auto;
+	margin-top: 70px;
+	margin-bottom: 40px;
+	display: block;
+}
+
+/* Button for signing in (in the form) */
+
+.btn-login {
+	margin-left: 150px;
+	padding-top: 25px;
+	padding-bottom: 20px;
+}
+
+.btnlogin-details {
+  background-color: #7FC5B8;
+  color: white;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 4px;
+}
+
+.btnlogin-details:hover {
+  color: black
+}
+
+/* Last page button to be redirected (to signin in page or register page) */
+
+.btn-end {
+  color: #E37D5F;
+}
+
+.btn-end:hover {
+  color: black;
+  font-weight: bolder;
+}
+
+/* Button to add the product to the cart */
+
+.btn-add {
+	width: 110px;
+	height: 20px;
+	background-color: #7FC5B8;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.btn-add:hover {
+	color: black;
+	font-weight: bolder;
+}
+
+/* Red buttons to go back to menu or to checkout (product page) */
+
+.btn-column {
+	list-style: none;
+	position: absolute; right: 0;
+	margin-right: 30px;
+	font-size: 22px;
+}
+
+.btn-column li {
+	margin-top: 15px;
+}
+
+.btn-column a {
+	color: #E37D5F;
+	font-weight: bold;
+}
+
+.btn-column a:hover {
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+

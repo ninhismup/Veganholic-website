@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title> Veganholic </title>
+		<meta name="description" content="This is the registering page of Veganholic">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+
+ 		<a href="index.html"> <img src="images/veganholic-logo.png" alt="Veganholic's logo" class="logo-register"> </a>
+    	<h2 id="sentence-register"> Register now ! </h2>
+    	<p id="sentence-fillin"> Please fill in this form to create your account </p>
+
+    	<form action="/my-handling-form-page" method="post">
+			<div class="form">
+    			<ul class="lists">
+    				<li>
+    					<label for="fname"> <b> First name: </b> </label>
+    					<input type="text" placeholder="Bruce" name="fname" required>
+    				</li>
+    				 <li>
+    					<label for="lname"> <b> Last name: </b> </label>
+    					<input type="text" placeholder="Wayne" name="lname" required>
+    				</li>
+    				<li>
+    				<label for="birthdate"> <b> Date of birth: </b> </label>
+					<input type="date" id="start" name="trip-start"
+       					value="1999-11-03"
+       					min="1900-12-31" max="2002-11-04">
+       				</li>
+    				<li>
+    					<label for="email"> <b> Email: </b> </label>
+    					<input type="text" placeholder="bruce.wayne@gmail.com" name="email" required>
+    				</li>
+    				<li>
+    					<label for="psw"> <b> Password: </b> </label>
+    					<input type="password" placeholder="batman123!" name="psw" required>
+    				</li>
+    				<li> 
+    					<label for="psw-repeat"> <b> Repeat Password: </b> </label>
+    					<input type="password" placeholder="batman123!" name="psw-repeat" required>
+    				</li>
+    				<hr>
+
+    				<p> By creating an account you agree to our Terms & Privacy </p>
+    				<li class="btn-login">
+    					<a href="login-index.html" class="btnlogin-details"> Register </a>
+    				</li>
+    			</ul>
+    		</div>
+
+    		<h5 class="sentence-end"> You already have an account? <a href="signin.html" class="btn-end"> Sign in </a> </h5>
+		</form>
+
+	</body>
+
+</html>
+
+
+
+
+
+

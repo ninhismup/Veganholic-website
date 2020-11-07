@@ -1,0 +1,86 @@
+/* Sign in / register form */
+
+.form {
+  margin: 0 auto;
+  width: 450px;
+  padding: 30px;
+  border: 1px solid #999;
+  border-radius: 16px;
+}
+
+.lists {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lists li + li {
+  margin-top: 18px;
+}
+
+label {
+  display: inline-block;
+  width: 180px;
+  text-align: right;
+}
+
+input {
+  width: 200px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-top: 25px;
+}
+
+ul p {
+  font-size: 15px;
+}
+
+/* Sign in page */
+/* Header (nice to see you again ! */
+
+.header-center {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: bold;
+} 
+
+/* Register page */
+/* Header (register ! + please fill this form to create your account) */
+
+#sentence-register {
+  text-align: center;
+  margin-bottom: 35px;
+  margin-top: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0px auto;
+  display: block;
+}
+
+#sentence-fillin {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+/* Last page sentence */
+
+.sentence-end {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
